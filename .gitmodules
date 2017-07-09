@@ -1,0 +1,9 @@
+[submodule "image"]
+	path = image
+	url = git@github.com:pixicog/image.git
+[submodule "tap"]
+	path = tap
+	url = git@github.com:pixicog/tap.h.git
+[submodule "lodepng"]
+	path = lodepng
+	url = git@github.com:lvandeve/lodepng.git
