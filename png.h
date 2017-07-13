@@ -6,9 +6,10 @@
 namespace pixicog {
   namespace png {
     void open(pixicog::Image *imgPtr, std::string filepath) {
+      throw "not implemented yet";
     }
     void save(pixicog::Image *imgPtr, std::string filepath) {
-      
+      throw "not implemented yet";
     }
   }
 }
