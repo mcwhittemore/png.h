@@ -1,6 +1,6 @@
 
 test:
-	g++ test.cpp -o build/unit-test
+	g++ ./lodepng/lodepng.cpp test.cpp -o build/unit-test
 	./build/unit-test
 
 clean:

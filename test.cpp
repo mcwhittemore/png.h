@@ -20,7 +20,7 @@ void openWorks() {
 };
 
 void saveWorks() {
-  std::string file = "./build/test-1x1-red.png";
+  const char* file = "./build/test-1x1-red.png";
 
   Image img(1, 1, 3);
   img.set(0, 0, 0, 255);
@@ -33,7 +33,7 @@ void saveWorks() {
   std::vector<int> shape = read.getShape();
   if (shape[0] != 1) throw "width is not right";
   if (shape[1] != 1) throw "height is not right";
-  if (shape[2] != 3) throw "num channels is not right";
+  if (shape[2] != 4) throw "num channels is not right";
 };
 
 int main(int argc, char * argv[]) {
